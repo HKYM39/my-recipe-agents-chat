@@ -5,7 +5,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "square-resonance-2d96",
-  "main": ".open-next/worker.js",
   "compatibility_date": "2025-03-01",
   "compatibility_flags": ["nodejs_compat_v2", "global_fetch_strictly_public"],
   "observability": {
