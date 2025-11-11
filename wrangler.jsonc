@@ -8,9 +8,6 @@
   "main": ".open-next/worker.js",
   "compatibility_date": "2025-03-01",
   "compatibility_flags": ["nodejs_compat_v2", "global_fetch_strictly_public"],
-  "assets": {
-    "directory": ".open-next/assets"
-  },
   "observability": {
     "enabled": true
   },
