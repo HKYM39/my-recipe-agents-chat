@@ -4,8 +4,6 @@ import { ZodError, z } from "zod";
 import { mastra } from "@/mastra";
 import { chatRoles } from "@/types/chat";
 
-export const runtime = "nodejs";
-
 // 基础请求体验证：确保每条消息满足角色 + 内容要求。
 const messageSchema = z.object({
   role: z.enum(chatRoles),
